@@ -1,0 +1,12 @@
+def computepay(hr, rr) :
+    hr= input("enter hours")
+    rr= input("enter rates")
+    ht=float(hr)
+    rt=float(rr)
+    pa=(ht*rt)
+    copa=(ht-40)*(1.5*rt) + (40*rt)
+if ht<=40:
+    return "Pay",pa)
+elif ht>40:
+    return 'Pay',copa
+print(computepay(hr, rr)
